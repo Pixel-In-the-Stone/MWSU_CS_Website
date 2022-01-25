@@ -3067,3 +3067,24 @@ input, select, textarea {
 			}
 
 	}
+
+	.facultyGrid{
+		display: grid;
+    	gap: 20px;
+		text-align: center;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	}
+
+	.facultyItem{
+		border-style: inset;
+		border-width: 10px;
+	}
+
+	.facultyItem h3 {
+		text-align: center;
+	}
+
+	.facultyItem img{
+		position: relative; 
+		width: 90%; 
+	}
